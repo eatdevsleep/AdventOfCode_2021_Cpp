@@ -9,6 +9,7 @@ set(CMAKE_CXX_COMPILER ${tools}/bin/g++-11)
 #project name
 project(Cpp20Examples VERSION 0.1)
 
+## The best way to include something from github, point at a specific archive, it should also use CMake
 # include(FetchContent)
 # FetchContent_Declare(
 #   googletest
@@ -17,9 +18,8 @@ project(Cpp20Examples VERSION 0.1)
 # )
 # FetchContent_MakeAvailable(googletest)
 
-#find_package(GTest CONFIG REQUIRED)
+##Can load directly from github source (requires setting up a key though)
 #include(ExternalProject)
-
 #ExternalProject_Add(googletest
 ###  GIT_REPOSITORY    git@github.com:google/googletest.git 
 ###  GIT_TAG           release-1.11.0 

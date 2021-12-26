@@ -15,6 +15,11 @@ add_executable(
   day3.cc
 )
 
+add_executable(
+  day4
+  day4.cc
+)
+
 # target_link_libraries(
 #   gtest_main
 #   gmock_main
