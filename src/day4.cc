@@ -111,7 +111,7 @@ int main(int argc, char** argv){
                     cout << endl;
                 }
 
-                // sum board
+                // sum unticked items on board
                 int sum {0};
                 for(int i =0; i < boardDim; i++){
                     for(int j =0; j < boardDim; j++){
@@ -124,10 +124,6 @@ int main(int argc, char** argv){
 
         }
     }
-
-
-
-
 
     exit(EXIT_SUCCESS);
 }
