@@ -1,3 +1,4 @@
+// gcc does not support modules 
 #include <ranges>
 #include <iostream>
 #include <limits>
@@ -7,7 +8,7 @@ using namespace std;
 
 // cd build
 // cmake ..
-// cmake --build .  
+// cmake --build ..  
 // cat ../src/day1input.txt | ./day1
 
 int main(int argc, char** argv){

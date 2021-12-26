@@ -1,3 +1,4 @@
+// gcc does not support modules 
 #include <algorithm>
 #include <ranges>
 #include <iostream>
@@ -9,7 +10,7 @@ using namespace std;
 
 // cd build
 // cmake ..
-// cmake --build .  
+// cmake --build ..  
 // cat ../src/day3input.txt | ./day3
 
 vector<int> GetBinaryCount(vector<string>& strings){

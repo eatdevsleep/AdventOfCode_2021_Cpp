@@ -1,3 +1,4 @@
+// gcc does not support modules 
 #include <ranges>
 #include <iostream>
 #include <limits>
@@ -13,6 +14,11 @@ enum class Direction {
     down,
     up
 };
+
+// cd build
+// cmake ..
+// cmake --build ..  
+// cat ../src/day2input.txt | ./day2
 
 int main(int argc, char** argv){
     unordered_map<string, Direction> enumMap {{"forward", Direction::forward}, {"down", Direction::down}, {"up", Direction::up}};
