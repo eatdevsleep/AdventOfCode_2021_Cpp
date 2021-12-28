@@ -28,7 +28,7 @@ struct Point {
 // cd build
 // cmake ..
 // cmake --build .  
-// cat ../src/day4input.txt | ./day4
+// cat ../src/day5input.txt | ./day5
 
 int main(int argc, char** argv){
     regex regex ("^([0-9]+),([0-9]+).->.([0-9]+),([0-9]+)$"s);
