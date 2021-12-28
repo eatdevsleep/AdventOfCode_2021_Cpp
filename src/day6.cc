@@ -33,7 +33,6 @@ void print(const array<long,9> &fishes, int day){
 int main(int argc, char** argv){
     array<long, 9> fishes {0L};
 
-    // load with regex
     while (cin) {
         string s;
         getline(cin, s, ',');

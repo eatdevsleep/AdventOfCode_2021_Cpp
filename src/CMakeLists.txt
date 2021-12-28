@@ -30,6 +30,11 @@ add_executable(
   day6.cc
 )
 
+add_executable(
+  day7
+  day7.cc
+)
+
 
 # target_link_libraries(
 #   gtest_main
